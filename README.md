@@ -130,6 +130,6 @@ This project applies key soft computing concepts:
 - U-Net (2015)  
 - PraNet (2021)  
 - DeiT Transformer  
-- ISIC2017 Dataset  
+- ISIC2017 Dataset: https://www.kaggle.com/datasets/awsaf49/isic-2017
 
 ---
