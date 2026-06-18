@@ -1,5 +1,5 @@
 # Description
-SGT-Net implementation for skin lesion segmentation using CNN, Transformer, and spectral learning. Achieves high Dice (0.91+) on ISIC datasets with fuzzy logic-based probabilistic outputs.
+SGT-Net implementation for skin lesion segmentation using CNN, Transformer, and spectral learning. Achieves high Dice (0.91+) on ISIC2017 dataset with fuzzy logic-based probabilistic outputs.
 
 # SGT-Net: Skin Lesion Segmentation using Spectral Generalized Transformer
 
@@ -83,14 +83,16 @@ Each prediction generates:
 ---
 
 ## 📂 Project Structure
-├── train.py # Training pipeline
-├── inference.py # Prediction script
-├── models/
-│ └── Pra_FATNet_local.py # SGT-Net architecture
-├── dataset/
-├── checkpoints/
-└── README.md
 
+```text
+.
+├── SGT-Net-implementation.ipynb                    # sample implementation
+├── SGT-Net.py                                      # training pipeline
+├── image0.zip                                      # sample image
+├── PRA-FATNet                                      # trained model
+├── Res2Net-v1b                                     # trained model
+└── README.md
+```
 
 ---
 
@@ -128,6 +130,6 @@ This project applies key soft computing concepts:
 - U-Net (2015)  
 - PraNet (2021)  
 - DeiT Transformer  
-- ISIC Dataset  
+- ISIC2017 Dataset  
 
 ---
