@@ -124,7 +124,7 @@ This project applies key soft computing concepts:
 ---
 
 ## 📚 References
-- SGT-Net Paper  
+- SGT-Net Paper: https://doi.org/10.1016/j.bspc.2025.108214 
 - U-Net (2015)  
 - PraNet (2021)  
 - DeiT Transformer  
